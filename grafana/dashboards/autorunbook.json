@@ -1,0 +1,20 @@
+{
+  "title": "AutoRunbook Dashboard",
+  "uid": "autorunbook",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Error Rate",
+      "targets": [
+        { "expr": "error_rate_percent", "refId": "A" }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "P99 Latency",
+      "targets": [
+        { "expr": "p99_latency_ms", "refId": "A" }
+      ]
+    }
+  ]
+}

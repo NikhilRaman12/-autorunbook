@@ -1,0 +1,5 @@
+{
+  "name": "AutoRunbook",
+  "description": "An AI-powered incident response system that automatically detects production anomalies and generates intelligent runbooks using Google Gemini AI.",
+  "requestFramePermissions": []
+}
